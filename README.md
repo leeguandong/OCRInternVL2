@@ -85,8 +85,10 @@ CUDA_VISIBLE_DEVICES=7 swift infer \
   <summary>硬件资源</summary>
   <p>* 实验在A800 (4X, 80GB)上进行</p>
 </details>
+
 - （1）准备[ocr数据](./data/EcommerceOCRBench/ESTVQA_cn_rectw17_ocr_swift.jsonl)和[ocr图像](./data/EcommerceOCRBench/data/);
 - （2）开始训练：
+
 
 ```bash
 swift_finetune_internvl_lora.sh
